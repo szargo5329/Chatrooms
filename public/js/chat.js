@@ -1,4 +1,4 @@
-//CLIENT
+// Client
 
 const socket = io();
 
@@ -39,6 +39,7 @@ const autoscroll = () => {
     }
 
 }
+
 
 socket.on('message', (message) => {
     console.log(message);
