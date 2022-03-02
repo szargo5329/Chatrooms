@@ -1,11 +1,11 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chatrooms Web Sockets.io project, developed in Node.js along with html/css\r User can log into any chatroom with a username and the name of a chatroom Ex: Charlotte,\r Users can chat with one another in real-time.",
   "main": "index.js",
   "dependencies": {
     "bad-words": "^3.0.3",
-    "express": "^4.17.1",
+    "express": "^4.16.4",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
@@ -17,5 +17,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szargo5329/Chatrooms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szargo5329/Chatrooms/issues"
+  },
+  "homepage": "https://github.com/szargo5329/Chatrooms#readme"
 }
